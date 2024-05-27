@@ -55,7 +55,7 @@ const ReactBuetifull = () => {
                                         <div className="flex justify-between gap-8"
                                             ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps} style={{ userSelect: "none", padding: 16, margin: "0 0 8px 0", background: snapshot.isDragging ? "lightgreen" : "grey", ...provided.draggableProps.style }} >
                                             <input className="w-full h-12 p-4 rounded-lg" type="text" value={card.content} onChange={event => handleInputChange(event, card.id)} placeholder="Ustun nomi" />
-                                            <input className="w-full h-12 p-4 rounded-lg" type="number" value={card.content} onChange={event => handleInputChange(event, card.id)} placeholder="Key" />
+                                            {/* <input className="w-full h-12 p-4 rounded-lg" type="number" value={card.content} onChange={event => handleInputChange(event, card.id)} placeholder="Key" /> */}
 
                                         </div>
 
